@@ -23,7 +23,7 @@ float output_gold[WH*WH*K];
 
 int main()
 {
-	    // get all platforms (drivers), e.g. NVIDIA
+	// get all platforms (drivers), e.g. NVIDIA
     std::vector<cl::Platform> all_platforms;
     cl::Platform::get(&all_platforms);
 
